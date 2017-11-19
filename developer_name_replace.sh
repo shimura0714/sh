@@ -11,6 +11,10 @@ EOF
 exit 1
 }
 
+if [ "-h" = "$1" ]; then
+	usage
+fi
+
 if [ -n "$1"]; then
 	echo "ERROR:名前をを入力してください。"
 	exit 1
