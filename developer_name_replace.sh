@@ -5,7 +5,7 @@ function usage {
 $(basename ${0}) is a tool for cyma local dev env config file settings 
 
 Usage:
-	$(basename ${0}) [command]
+	$(basename ${0}) [command][developer_name]
 
 EOF
 exit 1
