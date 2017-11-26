@@ -6,7 +6,7 @@ $(basename ${0}) is a tool for cyma local dev-env config file settings.
 replace "XXXXX" to developer's name.
 
 Usage:
-	$(basename ${0}) [command]
+	$(basename ${0}) [command][developer_name]
 
 EOF
 exit 1
