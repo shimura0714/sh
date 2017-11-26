@@ -2,7 +2,8 @@
 
 function usage {
 	cat << EOF
-$(basename ${0}) is a tool for cyma local dev env config file settings 
+$(basename ${0}) is a tool for cyma local dev-env config file settings.
+replace "XXXXX" to developer's name.
 
 Usage:
 	$(basename ${0}) [command]
